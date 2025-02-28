@@ -996,5 +996,18 @@
                 </div>
             </footer>
         </div>
+        <script src="files/swiper-bundle.min.js"></script>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const swiper = new Swiper('.swiper-container', {
+              slidesPerView: 'auto',
+              spaceBetween: 24,
+              navigation: {
+                nextEl: '.carousel-next',
+                prevEl: '.carousel-prev',
+              },
+            });
+          });
+        </script>
     </body>
 </html>
