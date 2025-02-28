@@ -4,4 +4,7 @@
     .custom-header {
         font-size: 46px !important;
     }
+    .logo-images img {
+        width: 125px !important;
+    }
   }
